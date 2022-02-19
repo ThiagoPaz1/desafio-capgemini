@@ -1,4 +1,4 @@
-const { character, heigth, ladder,} = require('../questao1');
+const { character, heigth, ladder } = require('../questao1');
 
 describe('Testes da questão 1.', () => {
   test('A base da escada deve igual ao valor de n', () => {
