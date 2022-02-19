@@ -1,5 +1,10 @@
+let testPassword = '';
+
 const validatePassword = (password) => {
+  const message = `A senha deve conter no mínimo 6 caracteres, ainda falta ${6 - password.length} caracteres.`
   const characterSpecial = '!@#$%^&*()-+';
+
+  testPassword += password;
 
   let newArray = [];
   
@@ -20,28 +25,33 @@ const validatePassword = (password) => {
   const findCharacter = newArray.find(i => characterSpecial.includes(i));
 
   if (password.length < 6) {
-    return console.log('A senha deve conter no mínimo 6 caracteres.');
+    return console.log(message);
   }
 
   if (!findDigit) {
-    return console.log('A senha deve conter no mínimo 1 número.');
+    return console.log('A senha deve conter no mínimo 1 número, para ser considerada forte.');
   }
 
   if (!findUpperCase) {
-    return console.log('A senha deve conter no mínimo 1 letra maiúsculo.');
+    return console.log('A senha deve conter no mínimo 1 letra maiúsculo, para ser considerada forte.');
   }
 
   if (!findLowerCase) {
-    return console.log('A senha deve conter no mínimo 1 letra minúsculo.');
+    return console.log('A senha deve conter no mínimo 1 letra minúsculo, para ser considerada forte.');
   }
 
   if (!findCharacter) {
     return console.log(
-      'A senha deve conter no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+'
+      `A senha deve conter no mínimo 1 caractere especial, para ser considerada forte.
+       Os caracteres especiais são: !@#$%^&*()-+`
     );
   }
 
   return console.log('Senha forte e segura!');
 }
 
-validatePassword('ABDsEf1^');
+validatePassword('ABDd(s1f');
+
+module.exports = {
+  testPassword,
+}
