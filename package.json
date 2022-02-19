@@ -1,0 +1,23 @@
+{
+  "name": "desafio-capgemini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "questao1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoPaz1/desafio-capgemini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoPaz1/desafio-capgemini/issues"
+  },
+  "homepage": "https://github.com/ThiagoPaz1/desafio-capgemini#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
