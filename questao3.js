@@ -5,7 +5,7 @@ const findAnagrams = (word) => {
   for (let i of word) {
     arrayWord.push(i.toLowerCase());
   }
-
+  
   for (let i in word) {
     let findLetters = word.indexOf(word[i]);
     let subStringsPairs = word.slice(findLetters, Number(i) + 1); 
@@ -19,8 +19,14 @@ const findAnagrams = (word) => {
   
   const findLettersEquals = arrayWord.filter((letter, i) => arrayWord.indexOf(letter) != i);
   const totalQuantityAnagrams = anagramPairs.length  + findLettersEquals.length; 
-
-  return console.log(`A palavra inserida contém ${totalQuantityAnagrams} anagramas pares.`);
+  
+  console.log(`A palavra inserida contém ${totalQuantityAnagrams} pares anagramas.`);
+  
+  return totalQuantityAnagrams;
 }
 
 findAnagrams('ovo');
+
+module.exports = {
+  findAnagrams,
+}
