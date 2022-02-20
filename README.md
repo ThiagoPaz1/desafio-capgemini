@@ -18,9 +18,9 @@
 <h3>Tecnologias utilizadas:</h3>
 <ul>
   <li>
-    Javascript <img width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+    Javascript <img width="50px" width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
   </li>
   <li>
-    Jest <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+    Jest <img width="50px" width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
   </li>
 </ul>
