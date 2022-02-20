@@ -11,3 +11,8 @@
   <li>npm test nome_do_arquivo</li>
   <li>Exemplo: npm test questao1.test.js</li>
 </ul>
+<h4>Iniciar todos os testes:</h4>
+<ul>
+  <li>npm test</li>
+</ul>
+
