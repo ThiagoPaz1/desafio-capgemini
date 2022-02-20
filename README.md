@@ -18,5 +18,4 @@
 <h3>Tecnologias utilizadas:</h3>
 <ul>
   <li>Javascript</li>
-  <li>Jest</li>
 </ul>
