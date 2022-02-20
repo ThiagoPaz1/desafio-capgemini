@@ -15,7 +15,7 @@
 <ul>
   <li>npm test</li>
 </ul>
-<h3>Tecnologias utilizadas:</h3>
+<h3>Tecnologia utilizada:</h3>
 <ul>
   <li>Javascript</li>
 </ul>
